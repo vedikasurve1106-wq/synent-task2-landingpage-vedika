@@ -9,10 +9,10 @@ body{
 }
 
 .hero{
-    background:#4f46e5;
+    background:linear-gradient(135deg,#1e293b,#334155);
     color:white;
     text-align:center;
-    padding:100px 20px;
+    padding:120px 20px;
 }
 
 .hero h1{
@@ -71,16 +71,31 @@ body{
 }
 
 .feature{
-    width:250px;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
-    text-align:center;
+    width:280px;
+    padding:35px 25px;
+    border-radius:20px;
     background:white;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    text-align:left;
+    transition:all 0.3s ease;
+    border:1px solid #f1f5f9;
 }
 
 .feature:hover{
-    transform:translateY(-5px);
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,0.12);
+}
+.feature h2{
+    font-size:22px;
+    font-weight:600;
+    margin-bottom:15px;
+    color:#1e293b;
+}
+
+.feature p{
+    font-size:15px;
+    line-height:1.7;
+    color:#64748b;
 }
 footer{
     background:#222;
