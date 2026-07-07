@@ -1,17 +1,30 @@
 # Smart Campus Companion Landing Page
 
-A responsive landing page built using HTML and CSS.
+## Overview
+A responsive landing page developed using HTML5 and CSS3 for the Smart Campus Companion platform.
 
 ## Features
-- Navigation Bar
-- Hero Section
-- Feature Cards
+- Responsive navigation bar
+- Hero section
+- Feature cards
 - Footer
-- Responsive Design
+- Mobile responsive layout
+- Smooth scrolling navigation
 
-## Technologies Used
+## Technologies
 - HTML5
 - CSS3
+
+## Folder Structure
+index.html
+style.css
+README.md
+
+## Future Scope
+- Student Login
+- Event Registration
+- Placement Dashboard
+- Notification System
 
 ## Author
 Vedika Surve
